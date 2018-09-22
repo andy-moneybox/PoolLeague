@@ -1,52 +1,39 @@
-# Prerequisites
-*.d
+# Visual Studio
+[Oo]bj
+[Bb]in
+*.suo
+*.Publish.xml
+App_Data
+packages
+# Visual Studio 2015
+.vs
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#Azure
+rcf
+csx
+*.man
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# merge
+*.orig
+*.REMOTE.*
+*.BASE.*
+*.BACKUP.*
+*.LOCAL.*
 
-# Precompiled Headers
-*.gch
-*.pch
+# ReSharper
+_ReSharper.*
+*.ReSharper
+*.user
+*.idea
+*.DotSettings
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# DotCover
+*.dotCover
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+#nuget
+*.nupkg
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Test playlists
+*.playlist
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+/src/MoneyBox.Worker/Profiles/moneybox-worker-devProduction.azurePubxml
